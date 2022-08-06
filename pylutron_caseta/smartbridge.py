@@ -731,7 +731,7 @@ class Smartbridge:
             _LOG.debug("Found control device missing serial")    
             device_serial = "_".join((name, device_type))
 
-        _LOG.debug("testing from jongilmore/pylutron-caseta@ra3")
+        _LOG.debug("test from jongilmore/pylutron-caseta@ra3")
         _LOG.debug(device_serial)
 
         button_groups = [
